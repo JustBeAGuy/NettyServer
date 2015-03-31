@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ef2fb13-ca94-4cd6-9be4-7dca8bb95800" name="Default" comment="" />
+    <list default="true" id="2ef2fb13-ca94-4cd6-9be4-7dca8bb95800" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hamstercoders/server/commands/StatusCommand.java" afterPath="$PROJECT_DIR$/src/main/java/com/hamstercoders/server/commands/StatusCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="NettyServer.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,12 +66,25 @@
     <favorites_list name="NettyServer" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="StatusCommand.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hamstercoders/server/commands/StatusCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="72" column="71" selection-start="2914" selection-end="2914" vertical-scroll-proportion="0.4079254" vertical-offset="913" max-vertical-offset="2346">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -91,12 +107,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hamstercoders/server/commands/Command.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hamstercoders/server/commands/RedirectCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hamstercoders/server/commands/HelloCommandRunnable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hamstercoders/server/commands/StatusCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hamstercoders/server/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hamstercoders/server/HttpServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hamstercoders/server/HttpServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hamstercoders/server/HttpServerInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hamstercoders/server/TrafficCounterHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hamstercoders/server/commands/StatusCommand.java" />
       </list>
     </option>
   </component>
@@ -673,12 +689,12 @@
       <workItem from="1427450892870" duration="23586000" />
       <workItem from="1427563015185" duration="1170000" />
       <workItem from="1427630584673" duration="53515000" />
-      <workItem from="1427796975306" duration="21544000" />
+      <workItem from="1427796975306" duration="22331000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115859000" />
+    <option name="totallyTimeSpent" value="116646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="-5" width="1034" height="570" extended-state="6" />
@@ -705,7 +721,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="9.765625E-4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25390625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32226562" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -726,6 +742,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Initial commit&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1057,13 +1075,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hamstercoders/server/commands/StatusCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2346">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hamstercoders/server/commands/RedirectCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="13" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1139">
@@ -1085,6 +1096,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hamstercoders/server/commands/HelloCommandRunnable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="13" selection-start="153" selection-end="153" vertical-scroll-proportion="0.26923078" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hamstercoders/server/commands/StatusCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="71" selection-start="2914" selection-end="2914" vertical-scroll-proportion="0.4079254" vertical-offset="913" max-vertical-offset="2346">
           <folding />
         </state>
       </provider>

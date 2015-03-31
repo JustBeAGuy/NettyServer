@@ -70,8 +70,8 @@ public class StatusCommand extends Command {
         //wrapping th
         uniqueReq.append(wrapping("tr",
                 wrapping("th", new StringBuilder("IP")).append(
-                        wrapping("th", new StringBuilder("Number of Req"))).append(
-                        wrapping("th",new StringBuilder("Last Req Time")))
+                        wrapping("th", new StringBuilder("Last Req Time"))).append(
+                        wrapping("th",new StringBuilder("Number of Req")))
         ));
 
         for(Map.Entry<String,ServerStatistics.UniqueRequest> entry : serverStatistics.getUniqueReq().entrySet()) {

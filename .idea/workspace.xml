@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ef2fb13-ca94-4cd6-9be4-7dca8bb95800" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ab.jpg" afterPath="$PROJECT_DIR$/ab.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/afterAB.jpg" afterPath="$PROJECT_DIR$/afterAB.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/status.jpg" afterPath="$PROJECT_DIR$/status.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NettyServer.iws" />
@@ -72,7 +69,7 @@
       <file leaf-file-name="StatusCommand.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hamstercoders/server/commands/StatusCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="64" selection-start="529" selection-end="529" vertical-scroll-proportion="-4.111888" vertical-offset="1917" max-vertical-offset="2346">
+            <state line="17" column="64" selection-start="529" selection-end="529" vertical-scroll-proportion="-6.4145455" vertical-offset="1917" max-vertical-offset="2346">
               <folding />
             </state>
           </provider>
@@ -732,7 +729,7 @@
       <workItem from="1427450892870" duration="23586000" />
       <workItem from="1427563015185" duration="1170000" />
       <workItem from="1427630584673" duration="53515000" />
-      <workItem from="1427796975306" duration="26552000" />
+      <workItem from="1427796975306" duration="26780000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit&#10;">
       <created>1427821350604</created>
@@ -746,11 +743,15 @@
       <created>1427825583309</created>
       <updated>1427825583318</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update commit&#10;">
+      <created>1427825668663</created>
+      <updated>1427825668663</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120867000" />
+    <option name="totallyTimeSpent" value="121095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="-5" width="1034" height="570" extended-state="6" />
@@ -775,10 +776,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.001953125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="9.765625E-4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32226562" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1165,7 +1166,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hamstercoders/server/commands/StatusCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="64" selection-start="529" selection-end="529" vertical-scroll-proportion="-4.111888" vertical-offset="1917" max-vertical-offset="2346">
+        <state line="17" column="64" selection-start="529" selection-end="529" vertical-scroll-proportion="-6.4145455" vertical-offset="1917" max-vertical-offset="2346">
           <folding />
         </state>
       </provider>

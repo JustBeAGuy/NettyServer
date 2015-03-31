@@ -34,6 +34,7 @@ public class HttpServerHandler extends SimpleChannelInboundHandler<HttpRequest> 
 
         //set Request uri
         request.setUri(req.getUri());
+        Logger.getLogger(HttpServerHandler.class).info("URI " + req.getUri());
 
         //checking for GET Method
         if(req.getMethod().equals(HttpMethod.GET)) {
@@ -45,7 +46,6 @@ public class HttpServerHandler extends SimpleChannelInboundHandler<HttpRequest> 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
         super.channelActive(ctx);
-        Logger.getLogger(HttpServerHandler.class).info("Channel Active");
         //Adding channel
         Channel incoming = ctx.channel();
         channels.add(incoming);
@@ -68,7 +68,6 @@ public class HttpServerHandler extends SimpleChannelInboundHandler<HttpRequest> 
     @Override
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
         super.channelInactive(ctx);
-        Logger.getLogger(HttpServerHandler.class).info("Channel InActive");
         //Set Open Connections
         serverStatistics.setOpenConnections(channels.size());
 

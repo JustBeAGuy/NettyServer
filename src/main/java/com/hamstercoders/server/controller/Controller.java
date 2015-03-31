@@ -72,7 +72,6 @@ public class Controller {
         if(splitedURI.length > 0) {
             res = splitedURI[1];
         }
-        Logger.getLogger(Controller.class).info("URI" + uri);
         return res;
     }
 

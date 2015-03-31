@@ -3,7 +3,6 @@ package com.hamstercoders.server;
 import com.hamstercoders.server.entities.Request;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.traffic.ChannelTrafficShapingHandler;
-import org.apache.log4j.Logger;
 
 
 /**

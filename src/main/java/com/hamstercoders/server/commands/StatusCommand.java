@@ -24,7 +24,7 @@ public class StatusCommand extends Command {
 
     @Override
     protected String createResponsePage() {
-        StringBuilder res;
+        StringBuilder res = new StringBuilder();
 
         StringBuilder numOfReq = new StringBuilder("Number Of Requests - "
                 + serverStatistics.getNumOfReq().toString());
@@ -71,7 +71,7 @@ public class StatusCommand extends Command {
         uniqueReq.append(wrapping("tr",
                 wrapping("th", new StringBuilder("IP")).append(
                         wrapping("th", new StringBuilder("Last Req Time"))).append(
-                        wrapping("th",new StringBuilder("Number of Req")))
+                        wrapping("th",new StringBuilder("Number Of Req")))
         ));
 
         for(Map.Entry<String,ServerStatistics.UniqueRequest> entry : serverStatistics.getUniqueReq().entrySet()) {

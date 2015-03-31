@@ -24,7 +24,7 @@ public class StatusCommand extends Command {
 
     @Override
     protected String createResponsePage() {
-        StringBuilder res = new StringBuilder();
+        StringBuilder res;
 
         StringBuilder numOfReq = new StringBuilder("Number Of Requests - "
                 + serverStatistics.getNumOfReq().toString());
